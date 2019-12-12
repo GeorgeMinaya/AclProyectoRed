@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Dinamicas";
+}
+
+
+<div class="card">
+    <h5 class="card-header text-light contenido-rojo">
+        <i class="fas fa-project-diagram"></i>
+        Dinamicas
+    </h5>
+    <div class="card-body">
+        <form>
+            <div class="form-group col-md-5">
+                <label for="dpFecha" class="letra-marron">Filtro de fechas</label>
+                <div class="input-group">
+                    <div class="input-group-prepend cursor-pointer">
+                        <a class="input-group-text text-light contenido-rojo" onclick="$('#dpFecha').focus();">
+                            <i class="fas fa-calendar-alt"></i>
+                        </a>
+                    </div>
+                    <input class="form-control letra-marron" id="dpFecha">
+                    <div class="input-group-append ">
+                        <button class="btn text-light fondo-barra-superior" id="btnBuscar" type="submit">
+                            <i class="fas fa-search"></i>
+                            Buscar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <table>
+
+            </table>
+        </form>
+    </div>
+</div>
+@*<div class="card">
+    <div class="card-header text-light contenido-rojo">
+        <div class="row">
+            <h5 class="col-md-2" style="margin:0;">
+                <i class="fas fa-project-diagram"></i>
+                Dinamicas
+            </h5>
+            <div class="col-md-9" style="margin:0;"></div>
+            <div class="col-md-1 text-center h4" style="margin:0;">
+                <span class="fas fa-plus-circle"></span>
+            </div>            
+        </div>        
+    </div>
+    <div class="card-body">
+        <form>
+            <div class="form-group col-md-5">
+                <label for="dpFecha" class="letra-marron">Filtro de fechas</label>
+                <div class="input-group">
+                    <div class="input-group-prepend cursor-pointer">
+                        <a class="input-group-text text-light contenido-rojo" onclick="$('#dpFecha').focus();">
+                            <i class="fas fa-calendar-alt"></i>
+                        </a>
+                    </div>
+                    <input class="form-control letra-marron" id="dpFecha">
+                    <div class="input-group-append ">
+                        <button class="btn text-light fondo-barra-superior" id="btnBuscar" type="submit">
+                            <i class="fas fa-search"></i>
+                            Buscar
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <table>
+            </table>
+        </form>
+    </div>
+</div>*@

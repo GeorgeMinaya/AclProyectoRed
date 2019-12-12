@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acl.RedModerno.Web", "Acl.RedModerno.Web\Acl.RedModerno.Web.csproj", "{1AFAE3F6-171E-4731-B849-6B59F2E81504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AFAE3F6-171E-4731-B849-6B59F2E81504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFAE3F6-171E-4731-B849-6B59F2E81504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFAE3F6-171E-4731-B849-6B59F2E81504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFAE3F6-171E-4731-B849-6B59F2E81504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE7CF0E-FB0F-400B-B0B8-FE213D5CD716}
+	EndGlobalSection
+EndGlobal
